@@ -1,0 +1,58 @@
+body{
+    font-family: 'Arima', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.first-section{
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 17rem;
+    text-align: center;
+    color: white;
+}
+.first-heading{
+    font-size: 40px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 166, 0),rgb(254, 44, 7));
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+}
+.second-section{
+    padding-top: 5rem;
+}
+.section2{
+    text-align: center;
+}
+.plan-section{
+    display: flex;
+    padding: 2rem 5rem;
+    text-align: center;
+}
+.section2-div1{
+    margin: 5px;
+    border: 1px transparent black;
+    background-color: rgb(201, 227, 227);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.section2-div2{
+    margin: 5px;
+    border: 1px transparent black;
+    background-color: rgb(244, 203, 191);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.section2-div3{
+    margin: 5px;
+    border: 1px transparent black;
+    background-color: rgb(218, 213, 157);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
