@@ -101,12 +101,84 @@ body{
 #button2{
     margin-top: 10px;
     margin-left: 55.5rem;
-    display: block;
     border: none;
     background-color: #f6f4f4;
     padding: 15px 20px;
     font-size: 16px;
     background-image: linear-gradient(rgb(255, 166, 0),rgb(254, 44, 7));
     cursor: pointer;
-    text-align: center; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+#button2:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+}
+.myhd{
+    text-align: center;
+}
+#img4{
+    width: 100%;
+}
+.third-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:350px;
+    margin-right: 380px;
+    margin-top: 30px;
+}
+.div3{
+    padding: 30px;
+}
+.forth-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:340px;
+    margin-right: 370px;
+    margin-top: 50px;
+}
+.div4{
+    padding: 30px;
+}
+.fifth-section{
+    align-items: center;
+    text-align: center;
+}
+.border1{
+    margin-top: 30px;
+    border: 3px transparent black;
+    background-color: #e9d3a3;
+    margin-left:35rem ;
+    margin-right: 35rem;
+}
+.email-input{  
+    margin-left: 25%;
+    /* margin-top: 30px; */
+    display: flex;
+    padding: 30px;
+}
+.email{
+    background: rgb(238, 236, 236);
+    border: none;
+    color: white;
+    width: 15rem;
+    height: 2rem;
+}
+.email-subs{
+    border: none;
+    background-image: linear-gradient(rgb(238, 99, 6),rgb(254, 7, 7));
+}
+.email-subs:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
 }
