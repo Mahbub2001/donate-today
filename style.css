@@ -31,28 +31,45 @@ body{
     text-align: center;
 }
 .plan-section{
+    width: 100%;
+    height: auto;
+
     display: flex;
-    padding: 2rem 5rem;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .section2-div1{
-    margin: 5px;
-    border: 1px transparent black;
     background-color: rgb(201, 227, 227);
-    padding: 1rem 1rem;
-    vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+    width: 20%;
+    height: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    flex-flow: wrap;
 }
 .section2-div2{
-    margin: 5px;
-    border: 1px transparent black;
     background-color: rgb(244, 203, 191);
-    padding: 1rem 1rem;
-    vertical-align: middle;
+    width: 20%;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+    height: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    flex-flow: wrap;
+
 }
 .section2-div3{
-    margin: 5px;
-    border: 1px transparent black;
     background-color: rgb(218, 213, 157);
-    padding: 1rem 1rem;
-    vertical-align: middle;
+    width: 20%;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+    height: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    flex-flow: wrap;
+
 }
