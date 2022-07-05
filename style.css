@@ -43,6 +43,35 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
+
+.container1{
+    padding: 5rem 40rem;
+}
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+ }
+ .card1{
+     padding: 5px 5px;
+
+     flex: 1 0 1px;
+ }
+.btn{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #f6f4f4;
+    padding: 40px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center; 
+}
+#click-button{
+    color: orangered;
+    border: 1px solid red;    
+}
+
 .container{
     padding: 2rem 20%;
 }
@@ -52,8 +81,32 @@ body{
    gap: 1.3rem;
 }
 .card{
-    background-color: rgb(216, 98, 98);
     padding: 15px 20px;
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
     flex: 1 0 20rem;
+}
+#card1{
+    background-color: rgb(188, 222, 239);
+}
+#card2{
+    background-color: rgb(246, 204, 239);
+}
+#card3{
+    background-color: rgb(244, 213, 166);
+}
+#input-type{
+    margin-left: 52rem;
+    padding: 23px 35px;
+}
+#button2{
+    margin-top: 10px;
+    margin-left: 55.5rem;
+    display: block;
+    border: none;
+    background-color: #f6f4f4;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-image: linear-gradient(rgb(255, 166, 0),rgb(254, 44, 7));
+    cursor: pointer;
+    text-align: center; 
 }
