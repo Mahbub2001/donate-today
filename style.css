@@ -167,7 +167,7 @@ body{
 .email{
     background: rgb(238, 236, 236);
     border: none;
-    color: white;
+    color: black;
     width: 15rem;
     height: 2rem;
 }
@@ -197,3 +197,7 @@ footer p{
     font-size: 10px;
     color: white;
 }
+::placeholder {
+    color: grey;
+    opacity: 1; /* Firefox */
+  }
