@@ -80,6 +80,7 @@ body{
    display: flex;
    flex-wrap: wrap;
    gap: 1.3rem;
+   width: 10m;
 }
 .card{
     padding: 15px 20px;
@@ -98,6 +99,12 @@ body{
 #input-type{
     margin-left: 52rem;
     padding: 23px 35px;
+    border: none;
+    outline-color: transparent;
+}
+#input-hr{
+    margin-left: 40rem;
+    margin-right: 40rem;
 }
 #button2{
     margin-top: 10px;
